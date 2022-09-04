@@ -1,0 +1,46 @@
+.smCard{
+    border-radius: 2%;
+    background-color:  hsl(227, 47%, 96%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'specimen';
+    color: hsl(228, 12%, 44%);
+    font-weight: 700;
+
+}
+
+.accountName{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.accountName img{
+    height: 25px;
+}
+
+.followersNum{
+    font-size: xxx-large;
+    font-weight: 900;
+      color: hsl(230, 17%, 14%);
+
+}
+.followers{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+.followersToday{
+    font-size: small;
+}
+
+/* ///////// */
+.dark .smCard{
+    background-color:  hsl(228, 28%, 20%);
+    color: hsl(228, 34%, 66%);
+
+}
+.dark .followersNum{
+    color: hsl(0, 0%, 100%);
+}

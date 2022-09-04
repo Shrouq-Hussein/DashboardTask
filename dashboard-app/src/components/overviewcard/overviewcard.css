@@ -1,0 +1,17 @@
+.overViewCard div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.overViewCard{
+    border-radius: 2%;
+    background-color:  hsl(227, 47%, 96%);
+}
+.dark .overViewCard{
+    background-color:  hsl(228, 28%, 20%);
+    color: hsl(228, 34%, 66%);
+}
+.title{
+    text-transform: capitalize;
+    font-size: medium;
+}
